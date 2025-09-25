@@ -1,0 +1,4 @@
+Unnamed: 0,ROPEX_DAM [Euro/MWh],Quantity [MWh]
+ROPEX_DAM_Base*  (1-24),99.39,49031.9
+ROPEX_DAM_Peak*  (9-20),106.66,22992.4
+ROPEX_DAM_Off_peak*  (1-8) & (21-24),92.13,26039.5

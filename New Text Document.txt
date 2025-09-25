@@ -1,0 +1,20 @@
+setx SMTP_HOST "smtp.mailersend.net"
+setx SMTP_PORT "587"       
+setx SMTP_USER "MS_x0HuKH@test-p7kx4xwvmwvg9yjr.mlsender.net"
+setx SMTP_PASS "mssp.hX2Y7C7.z86org8j810lew13.xj1Tcid"       
+setx SMTP_FROM "MS_x0HuKH@test-p7kx4xwvmvvg9yjr.mlsender.net"
+
+<h2>OPCOM – PZU (ROPEX_DAM)</h2>
+<table>
+<tr><th>Indice</th><th>Medie ponderată</th><th>Min</th><th>Max</th><th>Unitate</th></tr>
+<tr><td>Base (ore 1–24)</td><td>{fmt(ropex.get("base_avg"))}</td><td>{fmt(ropex.get("base_min"))}</td><td>{fmt(ropex.get("base_max"))}</td><td>RON/MWh</td></tr>
+<tr><td>Peak (ore 9–20)</td><td>{fmt(ropex.get("peak_avg"))}</td><td>{fmt(ropex.get("peak_min"))}</td><td>{fmt(ropex.get("peak_max"))}</td><td>RON/MWh</td></tr>
+<tr><td>Off-peak (1–8, 21–24)</td><td>{fmt(ropex.get("off_avg"))}</td><td>{fmt(ropex.get("off_min"))}</td><td>{fmt(ropex.get("off_max"))}</td><td>RON/MWh</td></tr>
+</table>
+<p class="muted">OPCOM: {hourly_rows or 0} ore procesate • sursă parse: <span class="chip">{opcom_source}</span></p>
+
+ $env:RESEND_API = "re_2HCg4J7r_5Cf4N54U76etcbt42AKTXHFU"
+
+!MagicBoi69**
+
+
